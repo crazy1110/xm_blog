@@ -1,0 +1,100 @@
+body{
+    background: #363636;
+}
+#container{
+    background-image: url(./new_bg.jpg);width: 100%;height: 700px;margin:0 auto;
+}
+
+#nav li {
+    float:left;
+    margin: 15px 0 0 35px;
+    color:#EEEEEE;
+}
+#nav li a{
+    color:#EEEEEE;
+}
+
+#nav a:hover{
+    color:#808080;
+    text-decoration:none;
+}
+
+#login{
+    width:82px;
+    height:30px;
+    position:absolute;
+    top:10px;
+    right:65px;
+    background-image:url(./big.png);
+    background-position:30px -150px;
+}
+#more{
+    width:40px;
+    height:30px;
+    position:absolute;
+    top:10px;
+    right:20px;
+    background-image:url(./big.png);
+    background-position:-190px -142px;
+}
+#share{
+    width:357px;
+    height:55px;
+    position:absolute;
+    top:620px;
+    right:20px;
+    background-image:url(./share.png);
+    opacity:0.5;
+}
+#login a{
+    font-size:16px;
+    line-height:28px;
+    color:white;
+    text-decoration:none;
+}
+#logo{
+    background-image:url(./big.png);
+    width:130px;
+    height:45px;
+    float: left;
+    background-position:0px -6px;
+}
+form{
+    background: white;
+    float: left;
+}
+#search-input{
+    outline:none;width:580px;
+    height: 45px;
+    line-height: 30px;
+    float: left;
+}
+#search-button{
+    background-image: url(./search.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+    width:40px;height: 45px;
+    float: left;
+}
+#main{
+    position: absolute;
+    top:140px;
+    left: 160px;
+}
+#footer li{
+   float:left;
+    margin:710px 8px 0 0;
+    font-size:13px;
+    color:#555555;
+}
+
+#footer a{
+    color:#555555;
+}
+#footer a:hover{
+    color:#888888;
+}
+
+#footer span:hover{
+    color:#888888;
+}
